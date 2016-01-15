@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="friendshelp.android.com.bylianggao.SettingActivity"
+    tools:showIn="@layout/setting_activity_app_bar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.github.siyamed.shapeimageview.CircularImageView
+                android:layout_height="match_parent"
+                android:layout_width="64sp"
+                android:scaleType="center"
+                android:layout_gravity="center_vertical"
+                app:siBorderWidth="2dp"
+                app:siBorderColor="#d6d6d6"
+
+                android:id="@+id/setting_activity_photo"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="3dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.1"
+
+                android:gravity="bottom"
+                android:textSize="24sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:id="@+id/setting_activity_name"
+                android:layout_marginLeft="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp">
+
+                <ImageView
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:id="@+id/location_icon"
+                    android:src="@drawable/location_icon"
+                    android:layout_gravity="top"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:gravity="top"
+                    android:layout_gravity="top"
+                    android:textStyle="italic|bold"
+
+                    android:id="@+id/setting_activity_city"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="Set services:"
+        android:textSize="20sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/setting_activity_listView"
+        android:layout_height="0dp"
+        android:layout_weight="50"
+        >
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:text="             Finished              "
+        android:id="@+id/setting_activity_ready_Button"
+        />
+</LinearLayout>

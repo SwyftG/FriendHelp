@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="aws-android-sdk-cognito-2.2.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.10/5c86f5cb9aae693767b6188475e98e8d36282e9d/aws-android-sdk-cognito-2.2.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-cognito/2.2.10/c1ac7f369adc41a17554a5de8ea9b046815494f/aws-android-sdk-cognito-2.2.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

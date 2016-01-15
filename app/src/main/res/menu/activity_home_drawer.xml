@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_firstpart">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+    </group>
+
+
+    <group android:id="@+id/menu_secondpart">
+        <item
+            android:id="@+id/nav_friend"
+            android:title="Friend" />
+        <item
+            android:id="@+id/nav_schedual"
+            android:title="Schedual" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_activity"
+            android:title="Activity" />
+    </group>
+
+
+    <group android:id="@+id/menu_thridpart">
+
+        <item
+            android:id="@+id/nav_setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+
+    </group>
+
+
+</menu>

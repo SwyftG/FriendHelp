@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Friends Help</string>
+    <string name="app_id">210150102650396</string>
+    <string name="describe_screen_text_01">Whatever you go, there is\n always has friend &amp; family help.\n Make strager place to be familiar.</string>
+    <string name="describe_screen_text_02">Enjob every party with your\n friend &amp; family. Meet with diefferent\n friend in the world</string>
+    <string name="describe_screen_text_03">Travel around word with your\n friend &amp; family help. Meet with\n diefferent friend in the world</string>
+    <string name="describe_get_start">GET START</string>
+    <string name="describe_title">Friends Help</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

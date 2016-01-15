@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="friendshelp.android.com.bylianggao.SchedualActivityStepTwo"
+    tools:showIn="@layout/activity_schedual_activity_step_two"
+    xmlns:whatever="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <friendshelp.android.com.bylianggao.customSuperCircularImageView
+                android:layout_width="72sp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:scaleType="center"
+
+                android:id="@+id/schedual_activity_step_two_profile_img"
+                app:siBorderColor="#d6d6d6"
+                app:siBorderWidth="2dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+
+                android:textColor="#000000"
+                android:id="@+id/schedual_activity_step_two_profile_name"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/location_icon"
+                    android:layout_width="19dp"
+                    android:layout_height="19dp"
+                    android:layout_gravity="top"
+                    android:src="@drawable/location_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:gravity="top"
+
+                    android:id="@+id/schedual_activity_step_two_profile_city"
+                    android:textSize="14sp"
+                    android:textStyle="italic|bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/schedual_activity_step_two_profile_time"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="10dp"
+        android:id="@+id/schedual_activity_step_two_listView">
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="right"
+        android:textSize="24sp"
+        android:id="@+id/schedual_activity_step_two_profile_total"
+        android:layout_marginRight="15dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="      CONFIRM      "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:id="@+id/schedual_activity_step_two_confirm_button"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
